@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style-all.css">
+	<link rel="stylesheet" type="text/css" href="style-home.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+</head>
+	<body>
+<div id="wrapper">
+	<div id="header">
+			<p><a href= "index.html">office cake</a></p>
+	<a href="https://www.facebook.com/Office-Cake-948455245179662/" target="_blank" class="fa fa-facebook"></a>
+	<a href="https://twitter.com/?lang=en" target="_blank" class="fa fa-twitter" ></a>
+	<a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a>
+		</div>
+	<nav>
+		<div id="sticky">
+<label for="toggle"><div onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+</label>
+			<input type="checkbox" id="toggle" checked/>
+		<ul class = "menu">
+		<li><a class ="current" href = "index.html">home</a></li>
+		<li><a href = "about-us.html">about us</a></li>	
+	    <li><a href = "blog.html">blog</a></li>
+		<li><a href = "our-cakes.html">our cakes</a></li>	
+		<li><a href = "custom-cakes.html">custom cakes</a></li>	
+			</ul>
+		</div>
+	</nav>
+		<div class = "banner">
+	<input type="radio" id="i1" name="images" checked />
+	<input type="radio" id="i2" name="images" />
+	<input type="radio" id="i3" name="images" />
+	
+	<div class="slide_img" id="one">			
+			
+			<img src="images/banner 3.jpg" alt = "chocolate cake">
+			
+				<label class="prev" for="i3"><span>&#x2039;</span></label>
+				<label class="next" for="i2"><span>&#x203a;</span></label>	
+		
+	</div>
+	
+	<div class="slide_img" id="two">
+		
+			<img src="images/banner 1.jpg" alt = "variety of cakes" >
+			
+				<label class="prev" for="i1"><span>&#x2039;</span></label>
+				<label class="next" for="i3"><span>&#x203a;</span></label>
+		
+	</div>
+			
+	<div class="slide_img" id="three">
+			<img src="images/banner 4.jpg" alt = "ganache drip cake">	
+			
+				<label class="prev" for="i2"><span>&#x2039;</span></label>
+				<label class="next" for="i1"><span>&#x203a;</span></label>
+	</div>
+
+	<div id="nav_slide">
+		<label for="i1" class="dots" id="dot1"></label>
+		<label for="i2" class="dots" id="dot2"></label>
+		<label for="i3" class="dots" id="dot3"></label>
+	</div>
+			<div class = "title">HOMEMADE WITH LOVE</div>
+	<a class="button" href="our-cakes.html">Our Cakes</a>
+		</div>
+	<main> 
+		<div class = "container">
+			<h1>Our Specialties</h1>
+<div class = "col left">
+		<a href = "our-cakes.html#kid"><img src= "images/home kid.jpg" alt="Cakes for Kids" width:350px height:350px></a>
+		<div class = "collink"> <a href= "our-cakes.html#kid">Kid's Cakes</a></div>
+		</div>
+		
+	<div class = "col middle">
+	<a href = "our-cakes.html#adult"><img src= "images/teen 5.jpg" alt="18-21 Birthdays" width:350px height:350px></a>
+	 <div class= "collink"><a href="our-cakes.html#teen">18-21's Cake</a></div>
+		</div>
+	<div class = "col right">
+	<a href = "our-cakes.html#wedding"><img src= "images/wedding home.jpg" alt="Wedding Cakes" width:350px height:350px></a>
+		<div class = "collink"><a href="our-cakes.html#wedding">Wedding Cakes</a></div>
+		</div>
+			</div>
+	</main>
+	
+	<div class = "parallax">
+	<p>Made From <strong>SCRATCH</strong> Using The  <br><strong>BEST INGREDIENTS</strong></p>
+</div>
+	
+<footer id ="footer">
+	<a id = "privacy">PRIVACY POLICY</a>
+	<a href="https://www.facebook.com/Office-Cake-948455245179662/"target="_blank" class="fa fa-facebook"></a>
+	<a href="https://twitter.com/?lang=en" target="_blank"class="fa fa-twitter"></a>
+	<a href="https://www.instagram.com/?hl=en" target="_blank" class="fa fa-instagram"></a>
+	</footer>
+	</div>
+		<script>function myFunction(x) {
+    x.classList.toggle("change");
+			}</script>
+</body>
+</html>
